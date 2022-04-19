@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{5b95e1a4-f407-4315-b014-8bea9ff4b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules">
+      <UniqueIdentifier>{5a16e132-d1b5-46d8-a583-9ef6d7dc1c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\infinite jump">
+      <UniqueIdentifier>{52bf2562-fa07-4e81-abb8-ec11261d2d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\infinite jump">
+      <UniqueIdentifier>{30724d2d-7573-46be-9757-09194320f743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\hitbox">
+      <UniqueIdentifier>{084bf872-2851-4daf-b283-a4ab56c4f9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\hitbox">
+      <UniqueIdentifier>{abbf5bcb-8190-41f0-8f5c-efde099a6873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\timer">
+      <UniqueIdentifier>{393c918a-4546-4dd1-b50e-79f3cae75423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\timer">
+      <UniqueIdentifier>{5d29f13b-6d63-4a72-b128-e66e58e5e397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\bhop">
+      <UniqueIdentifier>{e0ed8fe8-2cad-422a-a772-3b4f891e84fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\bhop">
+      <UniqueIdentifier>{f4bcfeb8-29e0-413d-a0db-7989b4301835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\automlg">
+      <UniqueIdentifier>{03801b06-6fd4-4273-80f3-ad102b734749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\automlg">
+      <UniqueIdentifier>{c1962542-e54c-45f4-83e1-8b7dace14f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types">
+      <UniqueIdentifier>{e2a0dff5-e21c-43a7-bc56-60dadb24a6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types\minecraft">
+      <UniqueIdentifier>{f1b7d65b-c1ea-45f3-b89f-7e47fe46e3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types\itemstack">
+      <UniqueIdentifier>{0eec6ca3-e03b-4c8d-bd10-fd2af8683653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types\player">
+      <UniqueIdentifier>{95c2853c-8880-4618-b5bd-f4172fec60bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types\world">
+      <UniqueIdentifier>{b7102b9e-5df7-4a7e-b8e6-7f67db302181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types">
+      <UniqueIdentifier>{a1ffd371-3027-4631-93b1-66acc40117df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types\player">
+      <UniqueIdentifier>{cb001ae8-d77b-453b-91a0-5bd4e51dbddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types\world">
+      <UniqueIdentifier>{f6fa1bfe-1f7f-4300-acf4-b74cd43fd370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types\minecraft">
+      <UniqueIdentifier>{98e28ee3-8de8-460f-9b62-894c50c8ed05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types\itemstack">
+      <UniqueIdentifier>{2a3e7264-384f-49b5-aabc-1ab57faaddd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hook">
+      <UniqueIdentifier>{026f9790-30d6-4671-9fbb-4dd26c444026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\autoarmor">
+      <UniqueIdentifier>{5ef9c93f-213a-4f61-8349-dd1200ca69ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\autoarmor">
+      <UniqueIdentifier>{c0f4ba23-0e43-41f6-9b9b-bafa48a08e90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="infinite_jump.h">
+      <Filter>Header Files\modules\infinite jump</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\types\player</Filter>
+    </ClInclude>
+    <ClInclude Include="minecraft.h">
+      <Filter>Header Files\types\minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Header Files\types\world</Filter>
+    </ClInclude>
+    <ClInclude Include="hitbox.h">
+      <Filter>Header Files\modules\hitbox</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files\modules\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="bhop.h">
+      <Filter>Header Files\modules\bhop</Filter>
+    </ClInclude>
+    <ClInclude Include="automlg.h">
+      <Filter>Header Files\modules\automlg</Filter>
+    </ClInclude>
+    <ClInclude Include="itemstack.h">
+      <Filter>Header Files\types\itemstack</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="autoarmor.h">
+      <Filter>Header Files\modules\autoarmor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\types\player</Filter>
+    </ClCompile>
+    <ClCompile Include="minecraft.cpp">
+      <Filter>Source Files\types\minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>Source Files\types\world</Filter>
+    </ClCompile>
+    <ClCompile Include="infinite_jump.cpp">
+      <Filter>Source Files\modules\infinite jump</Filter>
+    </ClCompile>
+    <ClCompile Include="hitbox.cpp">
+      <Filter>Source Files\modules\hitbox</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\modules\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="bhop.cpp">
+      <Filter>Source Files\modules\bhop</Filter>
+    </ClCompile>
+    <ClCompile Include="itemstack.cpp">
+      <Filter>Source Files\types\itemstack</Filter>
+    </ClCompile>
+    <ClCompile Include="automlg.cpp">
+      <Filter>Source Files\modules\automlg</Filter>
+    </ClCompile>
+    <ClCompile Include="autoarmor.cpp">
+      <Filter>Source Files\modules\autoarmor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
